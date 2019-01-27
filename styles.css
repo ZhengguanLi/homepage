@@ -1,0 +1,129 @@
+.doNotLike, .justSoSo, .love {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 25px;
+  display: block;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+.doNotLike:hover, .justSoSo:hover, .love:hover {
+  background-color: #ddd;
+}
+
+body {
+  background-color: bisque;
+  font-family: "Times New Roman", Times, serif;
+  margin: 20px;
+  padding: 20px;
+}
+
+#welcome {
+  color: red;
+  text-align: center;
+}
+
+@media (min-width: 500px) {
+  h1::before {
+    content: "Welcome to know about Stefanie Sun!";
+  }
+}
+@media (max-width: 499px) {
+  h1::before {
+    content: "Welcome!";
+  }
+}
+h2 {
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+}
+
+#intro, p {
+  background-color: burlywood;
+  border: 2px solid blue;
+  margin: 30px;
+  padding: 20px;
+}
+
+.contents {
+  text-align: center;
+}
+
+.catalogue {
+  margin: 20px;
+  padding: 30px;
+  border: 1px solid gray;
+  display: inline-block;
+  text-align: left;
+}
+
+ol {
+  font-size: 16px;
+  color: red;
+}
+
+ul {
+  font-size: 14px;
+  color: red;
+}
+
+li a {
+  font-size: 17px;
+}
+
+.form {
+  text-align: center;
+  font-size: 30px;
+}
+
+button:hover {
+  font-size: 34px;
+  color: white;
+  background-color: chocolate;
+}
+
+#studioAlbums, #albumsTable {
+  text-align: center;
+}
+
+#albumsTable {
+  border: 2px solid black;
+  border-collapse: collapse;
+  width: 500px;
+  width: 50%;
+}
+
+th {
+  background-color: lightgray;
+}
+
+th, td {
+  padding: 2px;
+  border: 1px solid black;
+  text-align: center;
+}
+
+.row > div {
+  padding: 20px;
+  background-color: #3cb4c9;
+  border: 2px solid coral;
+}
+
+#rate {
+  text-align: center;
+}
+
+.love {
+  background-color: royalblue;
+}
+
+.justSoSo {
+  background-color: whitesmoke;
+}
+
+.doNotLike {
+  background-color: red;
+}
+
+/*# sourceMappingURL=styles.css.map */
