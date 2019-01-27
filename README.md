@@ -1,3 +1,12 @@
-# Project 0
+# Homepage
 
-Web Programming with Python and JavaScript
+This is a webpage about *Stefanie Sun*.
+
+## Usage
+
+Open index.html
+
+## Author
+
+* **Zhengguan Li**
+
